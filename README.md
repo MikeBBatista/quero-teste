@@ -28,6 +28,7 @@ Para utilizar o script é necessário as seguintes bibliotecas:
 ### TUTORIAL :rainbow:
 
 Para que o script rode sem maiores problemas, é necessário criar uma base de dados utilizando do script sql contido no repositório (lembrando que é necessário utilizar do POSTGRESQL 12). Após configurar o banco é necessário criar um arquivo .env e preencher uma variável chamada "DB_CRED", utilizando das credenciais do seu banco de dados como no exemplo:
-     		```DB_CRED = 'postgresql://OWNER:PASSWORD@localhost:5432/DATABASE' ```
+     		          
+                         ```DB_CRED = 'postgresql://OWNER:PASSWORD@localhost:5432/DATABASE' ```
  
  Com o banco de dados e o ambiente configurado com as bibliotecas necessárias, é necessário apenas rodar o script para puxar os dados públicos fornecidos pela API e inseri-los na tabela em seu banco de dados!
