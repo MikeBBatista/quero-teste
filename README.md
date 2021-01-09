@@ -1,6 +1,6 @@
 # # <center> Teste para Engenheiro de dados </center> :envelope:
 
-## O repositório foi criado com intuito de demonstrar meus conhecimentos quanto a um teste aplicado pela Quero Educação.
+## O repositório foi criado com intuito de demonstrar meus conhecimentos quanto a um teste aplicado pela [Quero Educação](https://sobre.quero.com).
 
 ### Candidato :computer:
 
@@ -14,7 +14,7 @@ O desafio era recolher os dados [fornecidos por uma API](http://dataeng.quero.co
 
 Para desenvolver o script foi utilizado:
 
-- PYTHON 2.8.1 :coffee:
+- PYTHON 3.7.4 :coffee:
 - POSTGRESQL 12
 
 ### Pré Requisitos :cd:
