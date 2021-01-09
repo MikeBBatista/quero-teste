@@ -12,7 +12,7 @@ def treatment(table, money, numb_code):
 def insertData (table, table_name):
     for i in range(len(table)):
         try:
-            table.to_sql(table_name, connection.conn, if_exists='append', index=False)
+            table.iloc[i:i+1].to_sql(table_name, connection.conn, if_exists='append', index=False)
         except exc.IntegrityError:
             print("Uma linha possui id repetido, passando para o próximo!")
             pass
